@@ -1,10 +1,10 @@
 "use client";
 import { useState } from "react";
-import { Menu, X } from "lucide-react"; // Lightweight icon package (or any icon lib)
+import { Menu, X } from "lucide-react";
 import Logo from "@/utils/Logo";
 
 const NAV_ITEMS = [
-  { label: "Blog", href: "#blog" },
+  { label: "Education", href: "#education" },
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
@@ -26,7 +26,7 @@ export default function Navbar() {
             <li key={label}>
               <a
                 href={href}
-                className="nav-link relative text-white font-semibold uppercase text-sm tracking-wider hover:text-purple-400 transition"
+                className="nav-link relative text-white font-semibold uppercase text-sm tracking-wider hover:text-purple-400 [&.active]:text-purple-400 [&.active]:underline transition"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {label}

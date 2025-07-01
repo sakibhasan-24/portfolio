@@ -9,6 +9,7 @@ import {
 
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
+import NavTracker from "@/hooks/NavTracker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -53,6 +54,7 @@ export default function RootLayout({
       <body
         className={`${oxanium.variable}  antialiased animated-bg min-h-screen w-full`}
       >
+        <NavTracker />
         <Navbar />
         {children}
       </body>

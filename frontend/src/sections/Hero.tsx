@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Glow from "@/components/common/Glow";
 
 export default function Hero() {
   return (
@@ -16,7 +17,7 @@ export default function Hero() {
         transition={{ duration: 0.6 }}
         className="flex-1 text-white"
       >
-        <div className="absolute top-0 left-0 w-72 h-72 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-purple-500 via-indigo-500 to-blue-500 blur-2xl opacity-30 z-0"></div>
+        <Glow />
         <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
           Hi, I'm{" "}
           <span className="text-purple-400">a Full Stack Developer</span>
