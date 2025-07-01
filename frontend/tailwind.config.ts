@@ -10,6 +10,13 @@ module.exports = {
         primary: "#A855F7",
         secondary: "#0f172a",
       },
+      fontFamily: {
+        geistSans: ["var(--font-geist-sans)"],
+        geistMono: ["var(--font-geist-mono)"],
+        poppins: ["var(--font-poppins)"],
+        montserrat: ["var(--font-montserrat)"],
+        oxanium: ["var(--font-oxanium) "],
+      },
     },
   },
   plugins: [],
