@@ -15,10 +15,12 @@ import {
   SiPostman,
   SiRedux,
   SiVercel,
+  SiCplusplus,
 } from "react-icons/si";
 
 const techStack = [
   { name: "React", icon: <SiReact size={40} className="text-sky-400" /> },
+  { name: "C++", icon: <SiCplusplus size={40} className="text-blue-600" /> },
   { name: "Next.js", icon: <SiNextdotjs size={40} className="text-white" /> },
   {
     name: "TypeScript",

@@ -23,7 +23,6 @@ export default function AboutMe() {
         Who am I?
       </motion.h2>
 
-      {/* Description */}
       <motion.p
         className="text-center text-lg md:text-xl max-w-3xl mx-auto text-white/80 leading-relaxed"
         initial={{ opacity: 0, y: 20 }}
@@ -35,7 +34,6 @@ export default function AboutMe() {
         using the MERN stack, and I’m constantly leveling up in areas like
         system design and DSA.
       </motion.p>
-
       {/* Typing Goal Effect */}
       <motion.div
         className="mt-6 text-center text-xl font-medium text-purple-300"
@@ -46,9 +44,10 @@ export default function AboutMe() {
         <Typewriter
           options={{
             strings: [
-              "Aspiring Top 1% Developer 💡",
+              "Aspiring Top  Developer 💡",
               "Obsessed with Clean Code ✨",
               "Learning System Design 📐",
+              "waiting solve problem using Data Structure and algorithm 🧠",
             ],
             autoStart: true,
             loop: true,
