@@ -58,6 +58,15 @@ export const projects: Project[] = [
     type: "fullstack",
   },
   {
+    title: "Portfolio Website",
+    description: "This portfolio you're browsing now!",
+    technologies: ["Next.js", "Tailwind", "Framer Motion"],
+    icon: SiFramer,
+    liveDemo: "https://portfolio-six-sandy-238t5n75ej.vercel.app/",
+    sourceCode: "https://github.com/sakibhasan-24/portfolio",
+    type: "portfolio",
+  },
+  {
     title: "ThoughtShare",
     description:
       "Blog platform with like & comment system. Admins manage and publish blogs.",
@@ -113,14 +122,5 @@ export const projects: Project[] = [
     liveDemo: "https://sakibhasan-24.github.io/password-stronger/",
     sourceCode: "https://github.com/sakibhasan-24/password-stronger",
     type: "ui",
-  },
-  {
-    title: "Portfolio Website",
-    description: "This portfolio you're browsing now!",
-    technologies: ["Next.js", "Tailwind", "Framer Motion"],
-    icon: SiFramer,
-    liveDemo: "https://yourportfolio.vercel.app",
-    sourceCode: "https://github.com/sakibhasan-24/portfolio",
-    type: "portfolio",
   },
 ];
