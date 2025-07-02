@@ -6,6 +6,7 @@ import Logo from "@/utils/Logo";
 const NAV_ITEMS = [
   { label: "Education", href: "#education" },
   { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
