@@ -56,7 +56,7 @@ export default function Projects() {
           <button
             key={cat}
             onClick={() => setActive(cat)}
-            className={`px-4 py-2 rounded-full border text-sm font-semibold transition-all duration-300 ${
+            className={`px-4 cursor-pointer py-2 rounded-full border text-sm font-semibold transition-all duration-300 ${
               active === cat
                 ? "bg-purple-600 text-white"
                 : "bg-white/10 text-white hover:bg-purple-500/40"
